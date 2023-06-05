@@ -1,0 +1,43 @@
+/** @format */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 300px;
+  width: 700px;
+  padding: 35px 40px;
+  margin-top: 150px;
+  background: #285430;
+}
+
+.piano {
+  display: flex;
+  margin-top: 40px;
+}
+
+.white {
+  background: #fff;
+  position: relative;
+  border-radius: 0 0 5px 5px;
+  border: 2px solid #000;
+  height: 180px;
+  width: 100px;
+}
+
+.black {
+  height: 120px;
+  width: 80px;
+  margin: 0 -22px 0 -22px;
+  border-radius: 0 0 5px 5px;
+  z-index: 2;
+  background: #000;
+}
